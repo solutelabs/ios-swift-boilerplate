@@ -10,7 +10,6 @@ import Foundation
 class HomeViewModel {
     
     func getCurrenEnvironment() -> String {
-        // TODO: Dynamic Env.
-        return "Development"
+        return "\(Environment.current)"
     }
 }

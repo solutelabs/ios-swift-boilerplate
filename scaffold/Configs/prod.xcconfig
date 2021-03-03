@@ -1,0 +1,11 @@
+//
+//  prod.xcconfig
+//  scaffold
+//
+//  Created by stl-037 on 03/03/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+ENVIRONMENT = prod
