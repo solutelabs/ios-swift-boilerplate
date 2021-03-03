@@ -20,5 +20,3 @@ class HomeViewController: UIViewController {
     }
 
 }
-
-
