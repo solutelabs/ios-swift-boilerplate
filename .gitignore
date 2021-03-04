@@ -117,4 +117,7 @@ xcuserdata
 !*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
 
+## Custom ##
+*.generated.swift
+
 # End of https://www.toptal.com/developers/gitignore/api/swift,cocoapods,swiftpackagemanager,xcode

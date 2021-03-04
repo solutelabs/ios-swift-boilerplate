@@ -6,5 +6,6 @@ target 'scaffold' do
   use_frameworks!
 
   pod 'SwiftLint'
+  pod 'R.swift'
 
 end
