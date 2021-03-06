@@ -31,9 +31,9 @@ jobs:
     #     podfile-path: ./Podfile.lock
     - name: Install Dependencies
       run: |
+        ls
         pod install --repo-update
       shell: bash
-    - uses: ty0x2333/cocoapods-action@master
     - name: Configure Keychain
       run: |
         security create-keychain -p "" "$KEYCHAIN"
