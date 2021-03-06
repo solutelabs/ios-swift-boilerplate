@@ -25,6 +25,10 @@ jobs:
     - name: Select latest Xcode
       run: "sudo xcode-select -s /Applications/Xcode_$XC_VERSION.app"
     - uses: actions/checkout@v2
+    - name: setup-cocoapods
+      uses: maxim-lobanov/setup-cocoapods@v1
+      with:
+        podfile-path: ./Podfile.lock
     - name: Configure Keychain
       run: |
         security create-keychain -p "" "$KEYCHAIN"
