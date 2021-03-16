@@ -10,5 +10,6 @@ target 'scaffold' do
 
   ## FIREBASE
   pod 'Firebase/Analytics'
+  pod 'Firebase/Crashlytics'
 
 end

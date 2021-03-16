@@ -177,6 +177,7 @@
 				4F322D8825EF90C300C95DE6 /* Frameworks */,
 				4F322D8925EF90C300C95DE6 /* Resources */,
 				40DB923B2BDEBD2ECC35EED5 /* [CP] Embed Pods Frameworks */,
+				4FA6ABCE2600ADCD00DD906E /* Crashlytics */,
 			);
 			buildRules = (
 			);
@@ -327,6 +328,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		4FA6ABCE2600ADCD00DD906E /* Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+			);
+			name = Crashlytics;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
