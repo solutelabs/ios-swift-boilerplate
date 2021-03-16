@@ -172,10 +172,12 @@
 				2BEA08F312D85614A3E0756E /* [CP] Check Pods Manifest.lock */,
 				4F80C6A625F11C55001D0C5B /* R.Swift */,
 				4F5B2C0D25EFB5750033D98E /* SwiftLint */,
+				4F38ECEB26009528001364D8 /* Copy GoogleService-Info.plist */,
 				4F322D8725EF90C300C95DE6 /* Sources */,
 				4F322D8825EF90C300C95DE6 /* Frameworks */,
 				4F322D8925EF90C300C95DE6 /* Resources */,
 				40DB923B2BDEBD2ECC35EED5 /* [CP] Embed Pods Frameworks */,
+				4FA6ABCE2600ADCD00DD906E /* Crashlytics */,
 			);
 			buildRules = (
 			);
@@ -271,6 +273,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-scaffold/Pods-scaffold-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4F38ECEB26009528001364D8 /* Copy GoogleService-Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy GoogleService-Info.plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# NOTE: These should only live on the file system and should NOT be part of the target (since we'll be adding them to the target manually)\nPATH_TO_GOOGLE_PLISTS=\"${PROJECT_DIR}/scaffold/Configs\"\n\ncase \"${CONFIGURATION}\" in\n\n   \"Debug\" | \"Release\" )\n        cp -r \"$PATH_TO_GOOGLE_PLISTS/Prod/GoogleService-Info.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\" ;;\n        \n   \"Stage-Debug\" | \"Stage-Release\" )\n        cp -r \"$PATH_TO_GOOGLE_PLISTS/Stage/GoogleService-Info.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\" ;;\n\n   \"Dev-Debug\" | \"Dev-Release\")\n        cp -r \"$PATH_TO_GOOGLE_PLISTS/Dev/GoogleService-Info.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\" ;;\n\n    *)\n        ;;\nesac\n";
+		};
 		4F5B2C0D25EFB5750033D98E /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -308,6 +328,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		4FA6ABCE2600ADCD00DD906E /* Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+			);
+			name = Crashlytics;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -479,6 +518,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.solutelabs.scaffold;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -500,6 +540,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.solutelabs.scaffold;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -585,6 +626,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.solutelabs.scaffold.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "iOS Scaffold - Dev - Development";
@@ -665,6 +707,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.solutelabs.scaffold.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "iOS Scaffold - Dev - Development";
@@ -749,6 +792,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.solutelabs.scaffold.stage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -826,6 +870,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.solutelabs.scaffold.stage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

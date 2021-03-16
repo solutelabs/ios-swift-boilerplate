@@ -8,4 +8,8 @@ target 'scaffold' do
   pod 'SwiftLint'
   pod 'R.swift'
 
+  ## FIREBASE
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Crashlytics'
+
 end
