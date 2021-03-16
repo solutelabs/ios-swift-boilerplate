@@ -172,6 +172,7 @@
 				2BEA08F312D85614A3E0756E /* [CP] Check Pods Manifest.lock */,
 				4F80C6A625F11C55001D0C5B /* R.Swift */,
 				4F5B2C0D25EFB5750033D98E /* SwiftLint */,
+				4F38ECEB26009528001364D8 /* Copy GoogleService-Info.plist */,
 				4F322D8725EF90C300C95DE6 /* Sources */,
 				4F322D8825EF90C300C95DE6 /* Frameworks */,
 				4F322D8925EF90C300C95DE6 /* Resources */,
@@ -270,6 +271,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-scaffold/Pods-scaffold-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		4F38ECEB26009528001364D8 /* Copy GoogleService-Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy GoogleService-Info.plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# NOTE: These should only live on the file system and should NOT be part of the target (since we'll be adding them to the target manually)\nPATH_TO_GOOGLE_PLISTS=\"${PROJECT_DIR}/scaffold/Configs\"\n\ncase \"${CONFIGURATION}\" in\n\n   \"Debug\" | \"Release\" )\n        cp -r \"$PATH_TO_GOOGLE_PLISTS/Prod/GoogleService-Info.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\" ;;\n        \n   \"Stage-Debug\" | \"Stage-Release\" )\n        cp -r \"$PATH_TO_GOOGLE_PLISTS/Stage/GoogleService-Info.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\" ;;\n\n   \"Dev-Debug\" | \"Dev-Release\")\n        cp -r \"$PATH_TO_GOOGLE_PLISTS/Dev/GoogleService-Info.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\" ;;\n\n    *)\n        ;;\nesac\n";
 		};
 		4F5B2C0D25EFB5750033D98E /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
