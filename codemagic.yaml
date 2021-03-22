@@ -27,8 +27,12 @@ workflows:
                 # set up signing certificate
                 echo $DEV_CERT | base64 --decode > /tmp/certificate.p12
                 keychain add-certificates --certificate /tmp/certificate.p12 --certificate-password $DEV_CERT_PASSWORD
-            - xcode-project build-ipa -workspace "$XCODE_WORKSPACE.xcworkspace" -scheme "$XCODE_SCHEME"
+            - xcode-project build-ipa --workspace "$XCODE_WORKSPACE.xcworkspace" --scheme "$XCODE_SCHEME"
         artifacts:
             - build/ios/ipa/*.ipa
             - /tmp/xcodebuild_logs/*.log
             - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+        publishing:
+            email:
+                recipients:
+                - smit.sonani@solutelabs.com
