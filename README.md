@@ -38,19 +38,19 @@ Collects the default analytics like Screen Views, App Opens, etc. It can be exte
 
 Codemagic.yaml file has been added at the root of source code. It contains sample pipeline for Development build.
 
-######How To Build?
+###### How To Build?
 
 1. Connect the project repository to codemagic using [this guide](https://docs.codemagic.io/getting-started/adding-apps-from-custom-sources/). Codemagic will auto-detect the yaml file which has sample workflow added.
 2. Select `dev` workflow and select the branch from which buid to be generated. Start Build and it should generate the dev build.
 
-######What to be configured?
+###### What to be configured?
 
 1. Code Signing assets like Certificates, Profiles, etc. needs to be changed based on project's bundle ids and environments. [More info](https://docs.codemagic.io/code-signing-yaml/signing-ios/#manual-code-signing)
 2. For code signing profiles, following is recommended:
 - Local distribution (QA, Client Releases, etc) - `adhoc` profiles
-- Store / TestFlight distribution - `appstore` profiles
+- Store / TestFlight distribution - `appstore` profiles.
 
-######How to distribute?
+###### How to distribute?
 Once codemagic generates the artifacts, we can distribute the ipa in various ways.
 
 1. Using Firebase App Distribution. [More info](https://firebase.google.com/docs/app-distribution).
