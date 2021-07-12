@@ -12,4 +12,21 @@ target 'scaffold' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Crashlytics'
 
+  ## ONE SIGNAL
+  pod 'OneSignalXCFramework', '>= 3.0.0', '< 4.0'	
+
+  ##Branch.io
+  pod 'Branch'
+  
+  ##Stripe
+  pod 'Stripe'
 end
+
+
+
+
+target 'OneSignalNotificationServiceExtension' do
+use_frameworks!
+  pod 'OneSignalXCFramework', '>= 3.0.0', '< 4.0'
+end
+

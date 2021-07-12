@@ -7,13 +7,19 @@
 
 import UIKit
 import Firebase
+import OneSignal
+import Branch
+import Stripe
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        FirebaseApp.configure()
+        setupFirebase()
+        setupOnSignal(launchOptions: launchOptions)
+        setupBranch(launchOptions: launchOptions)
+        setupStripeAccount()
         return true
     }
 
@@ -34,5 +40,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
+    
+    func setupFirebase() {
+        FirebaseApp.configure()
+    }
+    
+    func setupOnSignal(launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
+        // Remove this method to stop OneSignal Debugging
+        OneSignal.setLogLevel(.LL_VERBOSE, visualLevel: .LL_NONE)
+        
+        // OneSignal initialization
+        OneSignal.initWithLaunchOptions(launchOptions)
+        OneSignal.setAppId("YOUR_ONESIGNAL_APP_ID")
 
+        /* promptForPushNotifications will show the native
+        iOS notification permission prompt.
+        We recommend removing the following code and
+        instead using an In-App Message to prompt for notification permission (See step 8)
+        */
+        OneSignal.promptForPushNotifications(userResponse: { accepted in
+             print("User accepted notifications: \(accepted)")
+        })
+    }
+    
+    func setupBranch(launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
+        // This version of initSession includes the source UIScene in the callback
+        
+        BranchScene.shared().initSession(launchOptions: launchOptions,
+                                         registerDeepLinkHandler: { (params, error, scene) in
+                                           
+        })
+    }
+    
+    func setupStripeAccount() {
+        //To Do: Change the Key After creating the account
+        StripeAPI.defaultPublishableKey = "pk_test_51JCJdSEblY5a5Tac71HhReL829000AtN0JzF5QD0hlUctvuLWDT5eGC0qmjoPWsY7ceVmyrOQ8pYqqZojgTL0lAn008S7Sslxe"
+    }
 }

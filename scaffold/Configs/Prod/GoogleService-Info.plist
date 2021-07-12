@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>376979810533-er2loar5gcu847t7eh22mg1mp7h9chsj.apps.googleusercontent.com</string>
+	<string>8676767049-gfcq30hrq1m9vj7q3oe4pnd9b86ibjec.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.376979810533-er2loar5gcu847t7eh22mg1mp7h9chsj</string>
+	<string>com.googleusercontent.apps.8676767049-gfcq30hrq1m9vj7q3oe4pnd9b86ibjec</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDFUfexCUZHYxxn9RgWnF2VnAat4wZ-8N0</string>
+	<string>AIzaSyA1avmD73F7bTbfMZyjEIYH8i8EKXfAzYU</string>
 	<key>GCM_SENDER_ID</key>
-	<string>376979810533</string>
+	<string>8676767049</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.solutelabs.scaffold</string>
 	<key>PROJECT_ID</key>
-	<string>ios-scaffold</string>
+	<string>stircrazykids-47570</string>
 	<key>STORAGE_BUCKET</key>
-	<string>ios-scaffold.appspot.com</string>
+	<string>stircrazykids-47570.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:376979810533:ios:7b55fa07363e4ce60ccc0c</string>
+	<string>1:8676767049:ios:e17fac1edffcc3f49fd698</string>
 </dict>
 </plist>
