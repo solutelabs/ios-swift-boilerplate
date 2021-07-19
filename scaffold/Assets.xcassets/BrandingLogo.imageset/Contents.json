@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "BrandingLogo.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

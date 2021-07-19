@@ -15,11 +15,14 @@ target 'scaffold' do
   ## ONE SIGNAL
   pod 'OneSignalXCFramework', '>= 3.0.0', '< 4.0'	
 
-  ##Branch.io
+  ## Branch.io
   pod 'Branch'
   
-  ##Stripe
+  ## STRIPE
   pod 'Stripe'
+  
+  ## PIN TEXT FIELD
+  pod 'SGDigitTextField'
 end
 
 

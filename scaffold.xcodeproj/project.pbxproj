@@ -17,11 +17,37 @@
 		4F322DAA25EF9AF800C95DE6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F322DA925EF9AF800C95DE6 /* HomeViewController.swift */; };
 		4F322DB125EFA35400C95DE6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F322DB025EFA35400C95DE6 /* HomeViewModel.swift */; };
 		4F5B2C2A25EFBAD00033D98E /* EnvironmentUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B2C2925EFBACD0033D98E /* EnvironmentUtils.swift */; };
+		911DC91026A55D77000F8FAB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DC90F26A55D77000F8FAB /* Constant.swift */; };
+		911DC91226A57817000F8FAB /* BeginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DC91126A57817000F8FAB /* BeginViewController.swift */; };
+		911DC91526A593BC000F8FAB /* PSSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DC91426A593BB000F8FAB /* PSSignupViewController.swift */; };
+		911DC91726A5A938000F8FAB /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DC91626A5A938000F8FAB /* ResetPasswordViewController.swift */; };
+		911DC91926A5BA7D000F8FAB /* CheckEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DC91826A5BA7D000F8FAB /* CheckEmailViewController.swift */; };
+		9122E361269D54FD00B1394A /* OnBordingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122E360269D54FD00B1394A /* OnBordingPageViewController.swift */; };
+		9122E363269D5BEB00B1394A /* Step0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122E362269D5BEB00B1394A /* Step0ViewController.swift */; };
+		9122E365269D5BF800B1394A /* Step1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122E364269D5BF800B1394A /* Step1ViewController.swift */; };
+		9122E367269D5C0400B1394A /* Step2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122E366269D5C0400B1394A /* Step2ViewController.swift */; };
+		9122E36A269D5EA400B1394A /* PageViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122E369269D5EA400B1394A /* PageViewControllerExtension.swift */; };
+		9122E36C269E091F00B1394A /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9122E36B269E091F00B1394A /* Montserrat-Bold.ttf */; };
+		9122E36E269E2B6D00B1394A /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122E36D269E2B6D00B1394A /* UIButtonExtension.swift */; };
+		91309DE9269FF20800503AF9 /* SearchSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91309DE8269FF20800503AF9 /* SearchSchoolViewController.swift */; };
+		91309DEC269FFD8500503AF9 /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91309DEB269FFD8500503AF9 /* AddStudentViewController.swift */; };
+		91309DEE26A0141100503AF9 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91309DED26A0141100503AF9 /* PersonalViewController.swift */; };
+		91309DF026A05B5C00503AF9 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91309DEF26A05B5C00503AF9 /* PopupViewController.swift */; };
+		91309DF226A06B1B00503AF9 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91309DF126A06B1B00503AF9 /* Montserrat-MediumItalic.ttf */; };
+		91309DF426A06F0B00503AF9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91309DF326A06F0B00503AF9 /* LoginViewController.swift */; };
+		91309DF626A0C73B00503AF9 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91309DF526A0C73B00503AF9 /* Montserrat-SemiBold.ttf */; };
 		917899052695B59A006ABB9C /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917899042695B59A006ABB9C /* R.generated.swift */; };
 		9192F476269BFECD002107E6 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9192F475269BFECD002107E6 /* Montserrat-Regular.ttf */; };
 		91931C4A269840D6008D8A59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91931C49269840D6008D8A59 /* GoogleService-Info.plist */; };
 		91931CE32698ACD5008D8A59 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 91931CDC2698ACD5008D8A59 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		91931CF02698AD3C008D8A59 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91931CEE2698AD3C008D8A59 /* NotificationService.swift */; };
+		919C8C31269E9E490025B026 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C8C30269E9E490025B026 /* WelcomeViewController.swift */; };
+		919C8C33269EB40E0025B026 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 919C8C32269EB40E0025B026 /* Montserrat-Medium.ttf */; };
+		919C8C3C269F04C20025B026 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C8C3B269F04C20025B026 /* SignupViewController.swift */; };
+		919C8C3E269F04FB0025B026 /* StorybordIndetifiersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C8C3D269F04FB0025B026 /* StorybordIndetifiersList.swift */; };
+		919C8C40269F0E450025B026 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C8C3F269F0E450025B026 /* UITextFieldExtension.swift */; };
+		919C8C44269F5BF90025B026 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C8C43269F5BF90025B026 /* PasswordViewController.swift */; };
+		919C8C46269F6A740025B026 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 919C8C45269F6A740025B026 /* Montserrat-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +98,25 @@
 		7AB39AEF2EA54F51530210D5 /* Pods-scaffold.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scaffold.release.xcconfig"; path = "Target Support Files/Pods-scaffold/Pods-scaffold.release.xcconfig"; sourceTree = "<group>"; };
 		806B192F22356BAE534EE2FB /* Pods-OneSignalNotificationServiceExtension.dev-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.dev-debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.dev-debug.xcconfig"; sourceTree = "<group>"; };
 		87F2D0DAD631DEA4C7C354E3 /* Pods-scaffold.stage-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scaffold.stage-release.xcconfig"; path = "Target Support Files/Pods-scaffold/Pods-scaffold.stage-release.xcconfig"; sourceTree = "<group>"; };
+		911DC90F26A55D77000F8FAB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		911DC91126A57817000F8FAB /* BeginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginViewController.swift; sourceTree = "<group>"; };
+		911DC91426A593BB000F8FAB /* PSSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSSignupViewController.swift; sourceTree = "<group>"; };
+		911DC91626A5A938000F8FAB /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		911DC91826A5BA7D000F8FAB /* CheckEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEmailViewController.swift; sourceTree = "<group>"; };
+		9122E360269D54FD00B1394A /* OnBordingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBordingPageViewController.swift; sourceTree = "<group>"; };
+		9122E362269D5BEB00B1394A /* Step0ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step0ViewController.swift; sourceTree = "<group>"; };
+		9122E364269D5BF800B1394A /* Step1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1ViewController.swift; sourceTree = "<group>"; };
+		9122E366269D5C0400B1394A /* Step2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2ViewController.swift; sourceTree = "<group>"; };
+		9122E369269D5EA400B1394A /* PageViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewControllerExtension.swift; sourceTree = "<group>"; };
+		9122E36B269E091F00B1394A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		9122E36D269E2B6D00B1394A /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		91309DE8269FF20800503AF9 /* SearchSchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSchoolViewController.swift; sourceTree = "<group>"; };
+		91309DEB269FFD8500503AF9 /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		91309DED26A0141100503AF9 /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		91309DEF26A05B5C00503AF9 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		91309DF126A06B1B00503AF9 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		91309DF326A06F0B00503AF9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		91309DF526A0C73B00503AF9 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		917899042695B59A006ABB9C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		9192F475269BFECD002107E6 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		91931C49269840D6008D8A59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -79,6 +124,13 @@
 		91931CDC2698ACD5008D8A59 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		91931CED2698AD3C008D8A59 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91931CEE2698AD3C008D8A59 /* NotificationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		919C8C30269E9E490025B026 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		919C8C32269EB40E0025B026 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		919C8C3B269F04C20025B026 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		919C8C3D269F04FB0025B026 /* StorybordIndetifiersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorybordIndetifiersList.swift; sourceTree = "<group>"; };
+		919C8C3F269F0E450025B026 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		919C8C43269F5BF90025B026 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		919C8C45269F6A740025B026 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
 		98F6AD06FD69BE6C0EAFE883 /* Pods-scaffold.dev-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scaffold.dev-release.xcconfig"; path = "Target Support Files/Pods-scaffold/Pods-scaffold.dev-release.xcconfig"; sourceTree = "<group>"; };
 		A79ADC9AE10567276A9404C8 /* Pods-scaffold.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scaffold.debug.xcconfig"; path = "Target Support Files/Pods-scaffold/Pods-scaffold.debug.xcconfig"; sourceTree = "<group>"; };
 		EE04B75ED535FBC9E9C574AD /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +199,9 @@
 		4F322D8D25EF90C300C95DE6 /* scaffold */ = {
 			isa = PBXGroup;
 			children = (
+				919C8C35269F04560025B026 /* Users */,
+				9122E368269D5E8200B1394A /* UIControlExtesnion */,
+				9122E35E269D511600B1394A /* OnBording */,
 				9192F474269BFEB3002107E6 /* Font */,
 				91931CC02698A364008D8A59 /* scaffold.entitlements */,
 				9147BB0026959C5A00849B57 /* Storyboard */,
@@ -206,6 +261,8 @@
 			isa = PBXGroup;
 			children = (
 				4F5B2C2925EFBACD0033D98E /* EnvironmentUtils.swift */,
+				919C8C3D269F04FB0025B026 /* StorybordIndetifiersList.swift */,
+				911DC90F26A55D77000F8FAB /* Constant.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -217,6 +274,45 @@
 				6F30AB0EAAE46D03959E9CBA /* Pods_OneSignalNotificationServiceExtension.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9122E35E269D511600B1394A /* OnBording */ = {
+			isa = PBXGroup;
+			children = (
+				9122E35F269D512000B1394A /* ViewController */,
+			);
+			path = OnBording;
+			sourceTree = "<group>";
+		};
+		9122E35F269D512000B1394A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9122E360269D54FD00B1394A /* OnBordingPageViewController.swift */,
+				9122E362269D5BEB00B1394A /* Step0ViewController.swift */,
+				9122E364269D5BF800B1394A /* Step1ViewController.swift */,
+				9122E366269D5C0400B1394A /* Step2ViewController.swift */,
+				919C8C30269E9E490025B026 /* WelcomeViewController.swift */,
+				911DC91126A57817000F8FAB /* BeginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9122E368269D5E8200B1394A /* UIControlExtesnion */ = {
+			isa = PBXGroup;
+			children = (
+				9122E369269D5EA400B1394A /* PageViewControllerExtension.swift */,
+				9122E36D269E2B6D00B1394A /* UIButtonExtension.swift */,
+				919C8C3F269F0E450025B026 /* UITextFieldExtension.swift */,
+			);
+			path = UIControlExtesnion;
+			sourceTree = "<group>";
+		};
+		91309DEA269FFD6C00503AF9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				91309DEB269FFD8500503AF9 /* AddStudentViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		9147BAFE26959C3300849B57 /* Delegate */ = {
@@ -251,6 +347,11 @@
 		9192F474269BFEB3002107E6 /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				91309DF526A0C73B00503AF9 /* Montserrat-SemiBold.ttf */,
+				91309DF126A06B1B00503AF9 /* Montserrat-MediumItalic.ttf */,
+				919C8C45269F6A740025B026 /* Montserrat-Italic.ttf */,
+				919C8C32269EB40E0025B026 /* Montserrat-Medium.ttf */,
+				9122E36B269E091F00B1394A /* Montserrat-Bold.ttf */,
 				9192F475269BFECD002107E6 /* Montserrat-Regular.ttf */,
 			);
 			path = Font;
@@ -263,6 +364,79 @@
 				91931CEE2698AD3C008D8A59 /* NotificationService.swift */,
 			);
 			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		919C8C35269F04560025B026 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				919C8C41269F5BD20025B026 /* Common */,
+				919C8C38269F047D0025B026 /* Parent */,
+				919C8C37269F04770025B026 /* Student */,
+				919C8C36269F04690025B026 /* Teacher */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		919C8C36269F04690025B026 /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				919C8C39269F049B0025B026 /* Signup */,
+			);
+			path = Teacher;
+			sourceTree = "<group>";
+		};
+		919C8C37269F04770025B026 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		919C8C38269F047D0025B026 /* Parent */ = {
+			isa = PBXGroup;
+			children = (
+				91309DEA269FFD6C00503AF9 /* ViewController */,
+			);
+			path = Parent;
+			sourceTree = "<group>";
+		};
+		919C8C39269F049B0025B026 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				919C8C3A269F04AA0025B026 /* ViewController */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		919C8C3A269F04AA0025B026 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				919C8C3B269F04C20025B026 /* SignupViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		919C8C41269F5BD20025B026 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				919C8C42269F5BE60025B026 /* ViewController */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		919C8C42269F5BE60025B026 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				919C8C43269F5BF90025B026 /* PasswordViewController.swift */,
+				91309DE8269FF20800503AF9 /* SearchSchoolViewController.swift */,
+				91309DED26A0141100503AF9 /* PersonalViewController.swift */,
+				91309DEF26A05B5C00503AF9 /* PopupViewController.swift */,
+				91309DF326A06F0B00503AF9 /* LoginViewController.swift */,
+				911DC91426A593BB000F8FAB /* PSSignupViewController.swift */,
+				911DC91626A5A938000F8FAB /* ResetPasswordViewController.swift */,
+				911DC91826A5BA7D000F8FAB /* CheckEmailViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,6 +528,11 @@
 			files = (
 				4F322D9B25EF90C600C95DE6 /* LaunchScreen.storyboard in Resources */,
 				91931C4A269840D6008D8A59 /* GoogleService-Info.plist in Resources */,
+				9122E36C269E091F00B1394A /* Montserrat-Bold.ttf in Resources */,
+				919C8C46269F6A740025B026 /* Montserrat-Italic.ttf in Resources */,
+				91309DF626A0C73B00503AF9 /* Montserrat-SemiBold.ttf in Resources */,
+				91309DF226A06B1B00503AF9 /* Montserrat-MediumItalic.ttf in Resources */,
+				919C8C33269EB40E0025B026 /* Montserrat-Medium.ttf in Resources */,
 				4F322D9825EF90C500C95DE6 /* Assets.xcassets in Resources */,
 				9192F476269BFECD002107E6 /* Montserrat-Regular.ttf in Resources */,
 				4F322D9625EF90C300C95DE6 /* Main.storyboard in Resources */,
@@ -513,12 +692,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				911DC91226A57817000F8FAB /* BeginViewController.swift in Sources */,
+				911DC91526A593BC000F8FAB /* PSSignupViewController.swift in Sources */,
+				9122E361269D54FD00B1394A /* OnBordingPageViewController.swift in Sources */,
+				9122E367269D5C0400B1394A /* Step2ViewController.swift in Sources */,
+				91309DEC269FFD8500503AF9 /* AddStudentViewController.swift in Sources */,
 				4F322D8F25EF90C300C95DE6 /* AppDelegate.swift in Sources */,
+				9122E36E269E2B6D00B1394A /* UIButtonExtension.swift in Sources */,
 				917899052695B59A006ABB9C /* R.generated.swift in Sources */,
+				91309DEE26A0141100503AF9 /* PersonalViewController.swift in Sources */,
+				911DC91726A5A938000F8FAB /* ResetPasswordViewController.swift in Sources */,
+				919C8C44269F5BF90025B026 /* PasswordViewController.swift in Sources */,
 				4F5B2C2A25EFBAD00033D98E /* EnvironmentUtils.swift in Sources */,
+				919C8C31269E9E490025B026 /* WelcomeViewController.swift in Sources */,
+				911DC91026A55D77000F8FAB /* Constant.swift in Sources */,
+				91309DF426A06F0B00503AF9 /* LoginViewController.swift in Sources */,
+				919C8C3E269F04FB0025B026 /* StorybordIndetifiersList.swift in Sources */,
+				919C8C3C269F04C20025B026 /* SignupViewController.swift in Sources */,
+				919C8C40269F0E450025B026 /* UITextFieldExtension.swift in Sources */,
+				9122E365269D5BF800B1394A /* Step1ViewController.swift in Sources */,
 				4F322D9125EF90C300C95DE6 /* SceneDelegate.swift in Sources */,
+				9122E36A269D5EA400B1394A /* PageViewControllerExtension.swift in Sources */,
 				4F322DAA25EF9AF800C95DE6 /* HomeViewController.swift in Sources */,
 				4F322DB125EFA35400C95DE6 /* HomeViewModel.swift in Sources */,
+				91309DE9269FF20800503AF9 /* SearchSchoolViewController.swift in Sources */,
+				911DC91926A5BA7D000F8FAB /* CheckEmailViewController.swift in Sources */,
+				9122E363269D5BEB00B1394A /* Step0ViewController.swift in Sources */,
+				91309DF026A05B5C00503AF9 /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

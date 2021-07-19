@@ -6,6 +6,11 @@
 	<string>$(ENVIRONMENT)</string>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Montserrat-SemiBold.ttf</string>
+		<string>Montserrat-MediumItalic</string>
+		<string>Montserrat-Italic.ttf</string>
+		<string>Montserrat-Medium.ttf</string>
+		<string>Montserrat-Bold.ttf</string>
 		<string>Montserrat-Regular.ttf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
