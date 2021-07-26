@@ -1,4 +1,5 @@
 PODS:
+  - AvailableHapticFeedback (1.0.2)
   - Branch (1.39.3)
   - Firebase/Analytics (8.2.0):
     - Firebase/Core
@@ -84,6 +85,9 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (7.4.3):
     - GoogleUtilities/Logger
+  - MultiSlider (1.11.2):
+    - AvailableHapticFeedback
+    - SweeterSwift
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
     - nanopb/encode (= 2.30908.0)
@@ -101,20 +105,25 @@ PODS:
   - Stripe/Stripe3DS2 (21.7.0):
     - StripeCore (= 21.7.0)
   - StripeCore (21.7.0)
+  - SweeterSwift (1.1.4)
   - SwiftLint (0.43.1)
+  - ZKCarousel (1.1.0)
 
 DEPENDENCIES:
   - Branch
   - Firebase/Analytics
   - Firebase/Crashlytics
+  - MultiSlider
   - OneSignalXCFramework (< 4.0, >= 3.0.0)
   - R.swift
   - SGDigitTextField
   - Stripe
   - SwiftLint
+  - ZKCarousel
 
 SPEC REPOS:
   trunk:
+    - AvailableHapticFeedback
     - Branch
     - Firebase
     - FirebaseAnalytics
@@ -125,6 +134,7 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleUtilities
+    - MultiSlider
     - nanopb
     - OneSignalXCFramework
     - PromisesObjC
@@ -133,9 +143,12 @@ SPEC REPOS:
     - SGDigitTextField
     - Stripe
     - StripeCore
+    - SweeterSwift
     - SwiftLint
+    - ZKCarousel
 
 SPEC CHECKSUMS:
+  AvailableHapticFeedback: 9b21b9f6d3e4566015988b5de35b40abefe6c09a
   Branch: 13df8e1a6985745a03389146df1eeda723645a97
   Firebase: 12c568897b807321964e89d2b263ef4c6cff3db6
   FirebaseAnalytics: 7a744b1e7dc50125cb37714c6bdaea167e412082
@@ -146,6 +159,7 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: b52eafc9dff542d580700e708216568bd2fbf168
   GoogleDataTransport: 04c3e9a480bbcaa2ec3f5d27f1cdeb6a92f20c8d
   GoogleUtilities: 45dbb24a7f351d69d0a601482b39ad6c32e30dab
+  MultiSlider: 944d00877d371bbb5ce0a512fec517de87958775
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   OneSignalXCFramework: 4e08d8353adec161c3d9174e2572c849e1225c9f
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
@@ -154,8 +168,10 @@ SPEC CHECKSUMS:
   SGDigitTextField: 4b65fbd4e2479a0b0abfbb7ac1e53ba77577f414
   Stripe: 90596971ef49bade169f68bc59369a796b30a045
   StripeCore: c09b492efc3b269a6ff875ad738ca366db97e03b
+  SweeterSwift: 8a90cf3156f5a1b6f39785c479369a16633b5ea9
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+  ZKCarousel: 935e0aa9beed83824588d9a82d8bafa5b6fc19db
 
-PODFILE CHECKSUM: 9f00bd53c128fb63a271bbb124a68240815026ac
+PODFILE CHECKSUM: 6d332090328ea2a93d46db861fd9b3c98262f0bc
 
 COCOAPODS: 1.10.1

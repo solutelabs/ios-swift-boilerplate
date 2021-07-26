@@ -24,7 +24,8 @@ extension UITextField {
         let mainView = UIView(frame: CGRect(x: 0, y: 0, width: 40, height: 20))
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 24, height: 20))
         imageView.contentMode = .scaleAspectFit
-        imageView.image = UIImage(named: "DownArrow")
+        //imageView.image = UIImage(named: "DownArrow")
+        imageView.image = #imageLiteral(resourceName: "DownArrow")
         mainView.addSubview(imageView)
         self.rightView = mainView
     }

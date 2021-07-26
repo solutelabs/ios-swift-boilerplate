@@ -23,6 +23,12 @@ target 'scaffold' do
   
   ## PIN TEXT FIELD
   pod 'SGDigitTextField'
+  
+  ## Multiple Thumb
+  pod 'MultiSlider'
+  
+  ## Item Page Carousel
+  pod 'ZKCarousel'
 end
 
 

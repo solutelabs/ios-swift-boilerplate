@@ -1,5 +1,5 @@
 //
-//  ResetPasswordViewController.swift
+//  PSSignupViewController.swift
 //  scaffold
 //
 //  Created by sl-mini on 19/07/21.
@@ -7,9 +7,10 @@
 
 import UIKit
 
-class ResetPasswordViewController: UIViewController {
+class PSSignupViewController: UIViewController {
 
-    
+    @IBOutlet weak var txtName: UITextField!
+    @IBOutlet weak var txtSurname: UITextField!
     @IBOutlet weak var txtEmail: UITextField!
     @IBOutlet weak var btnNext: UIButton!
     
@@ -19,41 +20,34 @@ class ResetPasswordViewController: UIViewController {
     }
     
     func style() {
+        txtName.setLeftPadding()
         txtEmail.setLeftPadding()
+        txtSurname.setLeftPadding()
+        
         txtEmail.ovalShape()
-        roundCorners(corners: [.topLeft, .topRight], radius: 30)
+        txtSurname.ovalShape()
+        txtName.ovalShape()
+    
         btnNext.setOvalButtonWithShadow()
     }
     
-    @IBAction func onNext(_ sender: Any) {
-        // Validate The email Id
-        // Redirect to Check your mail
-        redirectToCheckYourEmail()
+    
+    @IBAction func onNextTapped(_ sender: Any) {
+        //Validate the Text Feild
+        //Redirect to password page
+        redirectToPasswordViewController()
     }
     
-    @IBAction func onCancel(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
     
-    @IBAction func btnClose(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
-    
-    func redirectToCheckYourEmail() {
+    func redirectToPasswordViewController() {
+        
         // swiftlint:disable force_cast
         let viewController = self.storyboard?.instantiateViewController(identifier:
-                                                                            StorybordIndetifiersList.checkEmailViewController.rawValue) as! CheckEmailViewController
+                                                                            StorybordIndetifiersList.passwordViewController.rawValue) as! PasswordViewController
             viewController.modalPresentationStyle = .fullScreen
             self.present(viewController, animated: true, completion: nil)
         // swiftlint:enable force_cast
     }
-    
-    func roundCorners(corners: UIRectCorner, radius: CGFloat) {
-        let path = UIBezierPath(roundedRect: self.view.bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
-            let mask = CAShapeLayer()
-            mask.path = path.cgPath
-        self.view.layer.mask = mask
-        }
     
     /*
     // MARK: - Navigation
