@@ -271,14 +271,7 @@
 		4F322D8D25EF90C300C95DE6 /* scaffold */ = {
 			isa = PBXGroup;
 			children = (
-				918DCCBC26ACA926007CCAF5 /* Dashbord */,
-				91C83D7026AAFF420009A420 /* Checkout */,
-				91E3F19C26A8B190003A683B /* Menu */,
-				91E3F19326A7E925003A683B /* Search */,
-				911DC91A26A5F612000F8FAB /* Profile */,
-				919C8C35269F04560025B026 /* RegisterLogin */,
 				9122E368269D5E8200B1394A /* UIControlExtesnion */,
-				9122E35E269D511600B1394A /* OnBording */,
 				9192F474269BFEB3002107E6 /* Font */,
 				91931CC02698A364008D8A59 /* scaffold.entitlements */,
 				9147BB0026959C5A00849B57 /* Storyboard */,
@@ -303,6 +296,13 @@
 		4F322DAD25EF9C4A00C95DE6 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				9122E35E269D511600B1394A /* OnBording */,
+				918DCCBC26ACA926007CCAF5 /* Dashbord */,
+				91C83D7026AAFF420009A420 /* Checkout */,
+				91E3F19C26A8B190003A683B /* Menu */,
+				91E3F19326A7E925003A683B /* Search */,
+				911DC91A26A5F612000F8FAB /* Profile */,
+				919C8C35269F04560025B026 /* RegisterLogin */,
 				4F322DA825EF9AD600C95DE6 /* Home */,
 			);
 			path = Modules;
