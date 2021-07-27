@@ -67,4 +67,8 @@ enum StorybordIndetifiersList: String {
     // Search
     
     case filterViewController = "FilterViewController"
+    
+    // Order
+    
+    case orderDetailViewController = "OrderDetailViewController"
 }

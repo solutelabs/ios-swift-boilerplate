@@ -48,6 +48,7 @@
 		917A924B26AD9536002E43C5 /* HeadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A924A26AD9536002E43C5 /* HeadingTableViewCell.swift */; };
 		917A925026AD980D002E43C5 /* CategoryListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A924E26AD980D002E43C5 /* CategoryListTableViewCell.swift */; };
 		917A925126AD980D002E43C5 /* CategoryListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 917A924F26AD980D002E43C5 /* CategoryListTableViewCell.xib */; };
+		917CFEF126AFF1D500280D75 /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917CFEF026AFF1D500280D75 /* OrderDetailViewController.swift */; };
 		918D47C126A992C8008D69E4 /* TMyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918D47C026A992C8008D69E4 /* TMyAccountViewController.swift */; };
 		918DCCBB26ACA0DC007CCAF5 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918DCCBA26ACA0DC007CCAF5 /* Dashboard.storyboard */; };
 		918DCCC126ACAA08007CCAF5 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DCCC026ACAA08007CCAF5 /* DashboardViewController.swift */; };
@@ -175,6 +176,7 @@
 		917A924A26AD9536002E43C5 /* HeadingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingTableViewCell.swift; sourceTree = "<group>"; };
 		917A924E26AD980D002E43C5 /* CategoryListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListTableViewCell.swift; sourceTree = "<group>"; };
 		917A924F26AD980D002E43C5 /* CategoryListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryListTableViewCell.xib; sourceTree = "<group>"; };
+		917CFEF026AFF1D500280D75 /* OrderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
 		918D47C026A992C8008D69E4 /* TMyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMyAccountViewController.swift; sourceTree = "<group>"; };
 		918DCCBA26ACA0DC007CCAF5 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		918DCCC026ACAA08007CCAF5 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
@@ -317,6 +319,7 @@
 		4F322DAD25EF9C4A00C95DE6 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				917CFEEE26AFF15000280D75 /* Order */,
 				9122E35E269D511600B1394A /* OnBording */,
 				918DCCBC26ACA926007CCAF5 /* Dashbord */,
 				91C83D7026AAFF420009A420 /* Checkout */,
@@ -498,6 +501,22 @@
 				917A924F26AD980D002E43C5 /* CategoryListTableViewCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		917CFEEE26AFF15000280D75 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				917CFEEF26AFF1C600280D75 /* ViewController */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		917CFEEF26AFF1C600280D75 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				917CFEF026AFF1D500280D75 /* OrderDetailViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		918DCCBC26ACA926007CCAF5 /* Dashbord */ = {
@@ -968,6 +987,7 @@
 				91309DEC269FFD8500503AF9 /* AddStudentViewController.swift in Sources */,
 				917A924926AD8E70002E43C5 /* RecentOrderTableViewCell.swift in Sources */,
 				4F322D8F25EF90C300C95DE6 /* AppDelegate.swift in Sources */,
+				917CFEF126AFF1D500280D75 /* OrderDetailViewController.swift in Sources */,
 				911DC91D26A5F639000F8FAB /* MyFamilyViewController.swift in Sources */,
 				918D47C126A992C8008D69E4 /* TMyAccountViewController.swift in Sources */,
 				918DCCC726ACAE2C007CCAF5 /* ProfileViewController.swift in Sources */,

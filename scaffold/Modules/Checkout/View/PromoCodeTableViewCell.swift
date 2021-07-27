@@ -37,5 +37,3 @@ class PromoCodeTableViewCell: UITableViewCell {
     }
 
 }
-
-
