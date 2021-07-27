@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="StudentListTableViewCell" id="KGk-i7-Jjw" customClass="StudentListTableViewCell" customModule="scaffold" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="338" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="338" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hoW-yX-laj">
+                        <rect key="frame" x="5" y="5" width="328" height="90"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DefaultPic" translatesAutoresizingMaskIntoConstraints="NO" id="aQV-O1-aqY">
+                                <rect key="frame" x="22" y="18" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="58F-E3-YhR"/>
+                                    <constraint firstAttribute="width" constant="59" id="Oxr-KD-TT1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yarra Valley Grammar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BkC-M5-Eoa">
+                                <rect key="frame" x="98" y="45" width="172" height="15"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emma Flippatrick" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0X-p8-3yx">
+                                <rect key="frame" x="98" y="22" width="144" height="20"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowright" translatesAutoresizingMaskIntoConstraints="NO" id="dvf-EM-KHK">
+                                <rect key="frame" x="284" y="32" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="AM7-JR-452"/>
+                                    <constraint firstAttribute="height" constant="28" id="pJr-9A-FAN"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aQV-O1-aqY" firstAttribute="top" secondItem="hoW-yX-laj" secondAttribute="top" constant="18" id="26N-hO-coJ"/>
+                            <constraint firstItem="aQV-O1-aqY" firstAttribute="leading" secondItem="hoW-yX-laj" secondAttribute="leading" constant="22" id="2vY-jr-itX"/>
+                            <constraint firstAttribute="bottom" secondItem="aQV-O1-aqY" secondAttribute="bottom" constant="13" id="6Pm-Kw-aig"/>
+                            <constraint firstItem="dvf-EM-KHK" firstAttribute="top" secondItem="hoW-yX-laj" secondAttribute="top" constant="32" id="C8j-cV-EgX"/>
+                            <constraint firstItem="X0X-p8-3yx" firstAttribute="leading" secondItem="aQV-O1-aqY" secondAttribute="trailing" constant="17" id="IM2-Tj-1Lr"/>
+                            <constraint firstAttribute="trailing" secondItem="dvf-EM-KHK" secondAttribute="trailing" constant="16" id="PRI-ix-zbm"/>
+                            <constraint firstItem="BkC-M5-Eoa" firstAttribute="top" secondItem="X0X-p8-3yx" secondAttribute="bottom" constant="3" id="R4n-73-suV"/>
+                            <constraint firstItem="dvf-EM-KHK" firstAttribute="leading" secondItem="BkC-M5-Eoa" secondAttribute="trailing" constant="14" id="jsB-Dn-Hxs"/>
+                            <constraint firstItem="BkC-M5-Eoa" firstAttribute="leading" secondItem="aQV-O1-aqY" secondAttribute="trailing" constant="17" id="kBa-mn-u1Z"/>
+                            <constraint firstItem="X0X-p8-3yx" firstAttribute="top" secondItem="hoW-yX-laj" secondAttribute="top" constant="22" id="oq8-m8-Fza"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="hoW-yX-laj" secondAttribute="trailing" constant="5" id="8hp-IX-UdS"/>
+                    <constraint firstItem="hoW-yX-laj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="TW0-1z-o7n"/>
+                    <constraint firstAttribute="bottom" secondItem="hoW-yX-laj" secondAttribute="bottom" constant="5" id="YNJ-5v-Hwp"/>
+                    <constraint firstItem="hoW-yX-laj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="fxe-6z-TTd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgProfile" destination="aQV-O1-aqY" id="BJW-Mk-Ul8"/>
+                <outlet property="lblName" destination="X0X-p8-3yx" id="2le-Yh-qBl"/>
+                <outlet property="lblSchool" destination="BkC-M5-Eoa" id="tbR-e1-L95"/>
+                <outlet property="uvBackground" destination="hoW-yX-laj" id="3Sp-Yg-dp3"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="131.25"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="DefaultPic" width="59" height="59"/>
+        <image name="arrowright" width="29" height="29"/>
+    </resources>
+</document>

@@ -49,6 +49,12 @@
 		917A925026AD980D002E43C5 /* CategoryListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A924E26AD980D002E43C5 /* CategoryListTableViewCell.swift */; };
 		917A925126AD980D002E43C5 /* CategoryListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 917A924F26AD980D002E43C5 /* CategoryListTableViewCell.xib */; };
 		917CFEF126AFF1D500280D75 /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917CFEF026AFF1D500280D75 /* OrderDetailViewController.swift */; };
+		917CFEF326B008FB00280D75 /* OrderSteup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917CFEF226B008FB00280D75 /* OrderSteup.storyboard */; };
+		917CFEF826B0385C00280D75 /* StudentListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917CFEF626B0385C00280D75 /* StudentListTableViewCell.swift */; };
+		917CFEF926B0385D00280D75 /* StudentListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 917CFEF726B0385C00280D75 /* StudentListTableViewCell.xib */; };
+		917CFEFB26B04A3C00280D75 /* OrderLateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917CFEFA26B04A3C00280D75 /* OrderLateViewController.swift */; };
+		917CFEFD26B04B5E00280D75 /* InitalStepupStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917CFEFC26B04B5E00280D75 /* InitalStepupStep1ViewController.swift */; };
+		917CFEFF26B04B9C00280D75 /* InitalStepupStep2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917CFEFE26B04B9C00280D75 /* InitalStepupStep2ViewController.swift */; };
 		918D47C126A992C8008D69E4 /* TMyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918D47C026A992C8008D69E4 /* TMyAccountViewController.swift */; };
 		918DCCBB26ACA0DC007CCAF5 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918DCCBA26ACA0DC007CCAF5 /* Dashboard.storyboard */; };
 		918DCCC126ACAA08007CCAF5 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DCCC026ACAA08007CCAF5 /* DashboardViewController.swift */; };
@@ -177,6 +183,12 @@
 		917A924E26AD980D002E43C5 /* CategoryListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListTableViewCell.swift; sourceTree = "<group>"; };
 		917A924F26AD980D002E43C5 /* CategoryListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryListTableViewCell.xib; sourceTree = "<group>"; };
 		917CFEF026AFF1D500280D75 /* OrderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
+		917CFEF226B008FB00280D75 /* OrderSteup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OrderSteup.storyboard; sourceTree = "<group>"; };
+		917CFEF626B0385C00280D75 /* StudentListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListTableViewCell.swift; sourceTree = "<group>"; };
+		917CFEF726B0385C00280D75 /* StudentListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentListTableViewCell.xib; sourceTree = "<group>"; };
+		917CFEFA26B04A3C00280D75 /* OrderLateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderLateViewController.swift; sourceTree = "<group>"; };
+		917CFEFC26B04B5E00280D75 /* InitalStepupStep1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitalStepupStep1ViewController.swift; sourceTree = "<group>"; };
+		917CFEFE26B04B9C00280D75 /* InitalStepupStep2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitalStepupStep2ViewController.swift; sourceTree = "<group>"; };
 		918D47C026A992C8008D69E4 /* TMyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMyAccountViewController.swift; sourceTree = "<group>"; };
 		918DCCBA26ACA0DC007CCAF5 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		918DCCC026ACAA08007CCAF5 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
@@ -474,6 +486,7 @@
 				91E3F19A26A8B0B6003A683B /* MenuOrder.storyboard */,
 				91C83D9D26AB57850009A420 /* Checkout.storyboard */,
 				918DCCBA26ACA0DC007CCAF5 /* Dashboard.storyboard */,
+				917CFEF226B008FB00280D75 /* OrderSteup.storyboard */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -506,6 +519,7 @@
 		917CFEEE26AFF15000280D75 /* Order */ = {
 			isa = PBXGroup;
 			children = (
+				917CFEF426B02E4500280D75 /* View */,
 				917CFEEF26AFF1C600280D75 /* ViewController */,
 			);
 			path = Order;
@@ -515,8 +529,27 @@
 			isa = PBXGroup;
 			children = (
 				917CFEF026AFF1D500280D75 /* OrderDetailViewController.swift */,
+				917CFEFA26B04A3C00280D75 /* OrderLateViewController.swift */,
+				917CFEFC26B04B5E00280D75 /* InitalStepupStep1ViewController.swift */,
+				917CFEFE26B04B9C00280D75 /* InitalStepupStep2ViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		917CFEF426B02E4500280D75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		917CFEF526B02EB600280D75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				917CFEF626B0385C00280D75 /* StudentListTableViewCell.swift */,
+				917CFEF726B0385C00280D75 /* StudentListTableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		918DCCBC26ACA926007CCAF5 /* Dashbord */ = {
@@ -587,6 +620,7 @@
 		919C8C38269F047D0025B026 /* Parent */ = {
 			isa = PBXGroup;
 			children = (
+				917CFEF526B02EB600280D75 /* View */,
 				91309DEA269FFD6C00503AF9 /* ViewController */,
 			);
 			path = Parent;
@@ -815,8 +849,10 @@
 				918DCCBB26ACA0DC007CCAF5 /* Dashboard.storyboard in Resources */,
 				919C8C46269F6A740025B026 /* Montserrat-Italic.ttf in Resources */,
 				91309DF626A0C73B00503AF9 /* Montserrat-SemiBold.ttf in Resources */,
+				917CFEF326B008FB00280D75 /* OrderSteup.storyboard in Resources */,
 				91E3F19B26A8B0B6003A683B /* MenuOrder.storyboard in Resources */,
 				91C83D9E26AB57850009A420 /* Checkout.storyboard in Resources */,
+				917CFEF926B0385D00280D75 /* StudentListTableViewCell.xib in Resources */,
 				91309DF226A06B1B00503AF9 /* Montserrat-MediumItalic.ttf in Resources */,
 				919C8C33269EB40E0025B026 /* Montserrat-Medium.ttf in Resources */,
 				91E2D24026A6C5B800154514 /* PastOrderTableViewCell.xib in Resources */,
@@ -985,10 +1021,12 @@
 				9122E361269D54FD00B1394A /* OnBordingPageViewController.swift in Sources */,
 				9122E367269D5C0400B1394A /* Step2ViewController.swift in Sources */,
 				91309DEC269FFD8500503AF9 /* AddStudentViewController.swift in Sources */,
+				917CFEFD26B04B5E00280D75 /* InitalStepupStep1ViewController.swift in Sources */,
 				917A924926AD8E70002E43C5 /* RecentOrderTableViewCell.swift in Sources */,
 				4F322D8F25EF90C300C95DE6 /* AppDelegate.swift in Sources */,
 				917CFEF126AFF1D500280D75 /* OrderDetailViewController.swift in Sources */,
 				911DC91D26A5F639000F8FAB /* MyFamilyViewController.swift in Sources */,
+				917CFEFF26B04B9C00280D75 /* InitalStepupStep2ViewController.swift in Sources */,
 				918D47C126A992C8008D69E4 /* TMyAccountViewController.swift in Sources */,
 				918DCCC726ACAE2C007CCAF5 /* ProfileViewController.swift in Sources */,
 				9122E36E269E2B6D00B1394A /* UIButtonExtension.swift in Sources */,
@@ -1012,6 +1050,7 @@
 				91E3C0DA26AF0B4F00B8BA89 /* CheckoutViewController.swift in Sources */,
 				4F5B2C2A25EFBAD00033D98E /* EnvironmentUtils.swift in Sources */,
 				919C8C31269E9E490025B026 /* WelcomeViewController.swift in Sources */,
+				917CFEFB26B04A3C00280D75 /* OrderLateViewController.swift in Sources */,
 				911DC91026A55D77000F8FAB /* Constant.swift in Sources */,
 				91E2D23526A6974B00154514 /* PreferenceTableViewCell.swift in Sources */,
 				917A924726AD8D31002E43C5 /* RecentOrderListCVCell.swift in Sources */,
@@ -1036,6 +1075,7 @@
 				917A924526AD8AE3002E43C5 /* CategoryListCollectionViewCell.swift in Sources */,
 				918DCCC126ACAA08007CCAF5 /* DashboardViewController.swift in Sources */,
 				4F322DAA25EF9AF800C95DE6 /* HomeViewController.swift in Sources */,
+				917CFEF826B0385C00280D75 /* StudentListTableViewCell.swift in Sources */,
 				4F322DB125EFA35400C95DE6 /* HomeViewModel.swift in Sources */,
 				91E3C0C926AE81F600B8BA89 /* FilterViewController.swift in Sources */,
 				91309DE9269FF20800503AF9 /* SearchSchoolViewController.swift in Sources */,

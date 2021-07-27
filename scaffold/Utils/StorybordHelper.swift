@@ -13,6 +13,8 @@ enum AppStoryboard: String {
     case search = "Search"
     case menuOrder = "MenuOrder"
     case checkout = "Checkout"
+    case orderSetup = "OrderSteup"
+    case dashboard = "Dashboard"
     
     var instance: UIStoryboard {
       return UIStoryboard(name: self.rawValue, bundle: Bundle.main)

@@ -71,4 +71,10 @@ enum StorybordIndetifiersList: String {
     // Order
     
     case orderDetailViewController = "OrderDetailViewController"
+    
+    // Inital Order step up
+    
+    case orderLateViewController = "OrderLateViewController"
+    case initalStepupStep1ViewController = "InitalStepupStep1ViewController"
+    case initalStepupStep2ViewController = "InitalStepupStep2ViewController"
 }
