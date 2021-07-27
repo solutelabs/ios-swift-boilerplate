@@ -14,7 +14,7 @@ class CategoryListTableViewCell: UITableViewCell {
     @IBOutlet weak var lblDescription: UILabel!
     @IBOutlet weak var lblCalories: UILabel!
     @IBOutlet weak var lblPrice: UILabel!
-    
+    @IBOutlet weak var imgItem: UIImageView!
     @IBOutlet weak var btnStar: UIButton!
     @IBOutlet weak var lblIngredients: UILabel!
     override func awakeFromNib() {

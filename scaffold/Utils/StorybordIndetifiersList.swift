@@ -54,11 +54,17 @@ enum StorybordIndetifiersList: String {
     // Check Out
     
     case myCartViewController = "MyCartViewController"
-    
+    case youMayLikeItemViewController = "YouMayLikeItemViewController"
+    case checkoutViewController = "CheckoutViewController"
+    case rechargeViewController = "RechargeViewController"
     // Dashboard
     
     case dashboardViewController = "DashboardViewController"
     case profileViewController = "ProfileViewController"
     case favoritesViewController = "FavoritesViewController"
     case ordersViewController = "OrdersViewController"
+    
+    // Search
+    
+    case filterViewController = "FilterViewController"
 }

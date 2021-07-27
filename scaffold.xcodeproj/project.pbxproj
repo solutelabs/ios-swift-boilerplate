@@ -39,7 +39,6 @@
 		91309DF226A06B1B00503AF9 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91309DF126A06B1B00503AF9 /* Montserrat-MediumItalic.ttf */; };
 		91309DF426A06F0B00503AF9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91309DF326A06F0B00503AF9 /* LoginViewController.swift */; };
 		91309DF626A0C73B00503AF9 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91309DF526A0C73B00503AF9 /* Montserrat-SemiBold.ttf */; };
-		9153A35526A720C200AB4DC9 /* DeleteProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9153A35426A720C200AB4DC9 /* DeleteProfileViewController.swift */; };
 		916DD51526A6E492005BC6E5 /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916DD51426A6E492005BC6E5 /* PastOrderViewController.swift */; };
 		917899052695B59A006ABB9C /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917899042695B59A006ABB9C /* R.generated.swift */; };
 		917A924326AD78D3002E43C5 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A924226AD78D3002E43C5 /* CategoryTableViewCell.swift */; };
@@ -78,6 +77,17 @@
 		91E2D23826A69CED00154514 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E2D23726A69CED00154514 /* PreferencesViewController.swift */; };
 		91E2D23F26A6C5B800154514 /* PastOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E2D23D26A6C5B800154514 /* PastOrderTableViewCell.swift */; };
 		91E2D24026A6C5B800154514 /* PastOrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91E2D23E26A6C5B800154514 /* PastOrderTableViewCell.xib */; };
+		91E3C0C926AE81F600B8BA89 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E3C0C826AE81F600B8BA89 /* FilterViewController.swift */; };
+		91E3C0CB26AE8FF100B8BA89 /* DeleteProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E3C0CA26AE8FF100B8BA89 /* DeleteProfileViewController.swift */; };
+		91E3C0CD26AEB75F00B8BA89 /* YouMayLikeItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E3C0CC26AEB75F00B8BA89 /* YouMayLikeItemViewController.swift */; };
+		91E3C0CF26AED33800B8BA89 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E3C0CE26AED33800B8BA89 /* UIImageViewExtension.swift */; };
+		91E3C0D526AED3D700B8BA89 /* YouMayLikeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E3C0D326AED3D700B8BA89 /* YouMayLikeTableViewCell.swift */; };
+		91E3C0D626AED3D700B8BA89 /* YouMayLikeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91E3C0D426AED3D700B8BA89 /* YouMayLikeTableViewCell.xib */; };
+		91E3C0D826AF0B2400B8BA89 /* ItemListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E3C0D726AF0B2400B8BA89 /* ItemListTableViewCell.swift */; };
+		91E3C0DA26AF0B4F00B8BA89 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E3C0D926AF0B4F00B8BA89 /* CheckoutViewController.swift */; };
+		91E3C0DC26AF128100B8BA89 /* PromoCodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E3C0DB26AF128100B8BA89 /* PromoCodeTableViewCell.swift */; };
+		91E3C0DE26AF209500B8BA89 /* CheckoutTotalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E3C0DD26AF209500B8BA89 /* CheckoutTotalTableViewCell.swift */; };
+		91E3C0E026AF282C00B8BA89 /* RechargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E3C0DF26AF282C00B8BA89 /* RechargeViewController.swift */; };
 		91E3F19026A7DBF7003A683B /* StorybordHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E3F18F26A7DBF7003A683B /* StorybordHelper.swift */; };
 		91E3F19226A7E5D7003A683B /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E3F19126A7E5D6003A683B /* Search.storyboard */; };
 		91E3F19626A7E974003A683B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E3F19526A7E974003A683B /* SearchViewController.swift */; };
@@ -156,7 +166,6 @@
 		91309DF126A06B1B00503AF9 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
 		91309DF326A06F0B00503AF9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		91309DF526A0C73B00503AF9 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
-		9153A35426A720C200AB4DC9 /* DeleteProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeleteProfileViewController.swift; path = scaffold/Profile/ViewController/DeleteProfileViewController.swift; sourceTree = SOURCE_ROOT; };
 		916DD51426A6E492005BC6E5 /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
 		917899042695B59A006ABB9C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		917A924226AD78D3002E43C5 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
@@ -197,6 +206,17 @@
 		91E2D23726A69CED00154514 /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
 		91E2D23D26A6C5B800154514 /* PastOrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastOrderTableViewCell.swift; sourceTree = "<group>"; };
 		91E2D23E26A6C5B800154514 /* PastOrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PastOrderTableViewCell.xib; sourceTree = "<group>"; };
+		91E3C0C826AE81F600B8BA89 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		91E3C0CA26AE8FF100B8BA89 /* DeleteProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteProfileViewController.swift; sourceTree = "<group>"; };
+		91E3C0CC26AEB75F00B8BA89 /* YouMayLikeItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouMayLikeItemViewController.swift; sourceTree = "<group>"; };
+		91E3C0CE26AED33800B8BA89 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		91E3C0D326AED3D700B8BA89 /* YouMayLikeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouMayLikeTableViewCell.swift; sourceTree = "<group>"; };
+		91E3C0D426AED3D700B8BA89 /* YouMayLikeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YouMayLikeTableViewCell.xib; sourceTree = "<group>"; };
+		91E3C0D726AF0B2400B8BA89 /* ItemListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListTableViewCell.swift; sourceTree = "<group>"; };
+		91E3C0D926AF0B4F00B8BA89 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		91E3C0DB26AF128100B8BA89 /* PromoCodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeTableViewCell.swift; sourceTree = "<group>"; };
+		91E3C0DD26AF209500B8BA89 /* CheckoutTotalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutTotalTableViewCell.swift; sourceTree = "<group>"; };
+		91E3C0DF26AF282C00B8BA89 /* RechargeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechargeViewController.swift; sourceTree = "<group>"; };
 		91E3F18F26A7DBF7003A683B /* StorybordHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorybordHelper.swift; sourceTree = "<group>"; };
 		91E3F19126A7E5D6003A683B /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		91E3F19526A7E974003A683B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -271,6 +291,7 @@
 		4F322D8D25EF90C300C95DE6 /* scaffold */ = {
 			isa = PBXGroup;
 			children = (
+				91E3C0C726AE782000B8BA89 /* Networking */,
 				9122E368269D5E8200B1394A /* UIControlExtesnion */,
 				9192F474269BFEB3002107E6 /* Font */,
 				91931CC02698A364008D8A59 /* scaffold.entitlements */,
@@ -367,7 +388,7 @@
 			isa = PBXGroup;
 			children = (
 				918D47C026A992C8008D69E4 /* TMyAccountViewController.swift */,
-				9153A35426A720C200AB4DC9 /* DeleteProfileViewController.swift */,
+				91E3C0CA26AE8FF100B8BA89 /* DeleteProfileViewController.swift */,
 				911DC91C26A5F639000F8FAB /* MyFamilyViewController.swift */,
 				91E2D23726A69CED00154514 /* PreferencesViewController.swift */,
 				916DD51426A6E492005BC6E5 /* PastOrderViewController.swift */,
@@ -419,6 +440,7 @@
 				9122E36D269E2B6D00B1394A /* UIButtonExtension.swift */,
 				919C8C3F269F0E450025B026 /* UITextFieldExtension.swift */,
 				91B329BA26A6EFE400C90790 /* UIViewExtension.swift */,
+				91E3C0CE26AED33800B8BA89 /* UIImageViewExtension.swift */,
 			);
 			path = UIControlExtesnion;
 			sourceTree = "<group>";
@@ -593,6 +615,7 @@
 		91C83D7026AAFF420009A420 /* Checkout */ = {
 			isa = PBXGroup;
 			children = (
+				91E3C0D026AED39200B8BA89 /* View */,
 				91C83D7126AAFF4C0009A420 /* ViewController */,
 			);
 			path = Checkout;
@@ -603,8 +626,30 @@
 			children = (
 				91C83D7226AAFF5F0009A420 /* MyCartViewController.swift */,
 				918DCCC826ACAFF7007CCAF5 /* OrdersViewController.swift */,
+				91E3C0CC26AEB75F00B8BA89 /* YouMayLikeItemViewController.swift */,
+				91E3C0D926AF0B4F00B8BA89 /* CheckoutViewController.swift */,
+				91E3C0DF26AF282C00B8BA89 /* RechargeViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		91E3C0C726AE782000B8BA89 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		91E3C0D026AED39200B8BA89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91E3C0D326AED3D700B8BA89 /* YouMayLikeTableViewCell.swift */,
+				91E3C0D426AED3D700B8BA89 /* YouMayLikeTableViewCell.xib */,
+				91E3C0D726AF0B2400B8BA89 /* ItemListTableViewCell.swift */,
+				91E3C0DB26AF128100B8BA89 /* PromoCodeTableViewCell.swift */,
+				91E3C0DD26AF209500B8BA89 /* CheckoutTotalTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		91E3F19326A7E925003A683B /* Search */ = {
@@ -620,6 +665,7 @@
 			isa = PBXGroup;
 			children = (
 				91E3F19526A7E974003A683B /* SearchViewController.swift */,
+				91E3C0C826AE81F600B8BA89 /* FilterViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -742,6 +788,7 @@
 				4F322D9B25EF90C600C95DE6 /* LaunchScreen.storyboard in Resources */,
 				91E2D23626A6974B00154514 /* PreferenceTableViewCell.xib in Resources */,
 				91931C4A269840D6008D8A59 /* GoogleService-Info.plist in Resources */,
+				91E3C0D626AED3D700B8BA89 /* YouMayLikeTableViewCell.xib in Resources */,
 				91C83D6F26AABC500009A420 /* Montserrat-Light.ttf in Resources */,
 				91E3F19226A7E5D7003A683B /* Search.storyboard in Resources */,
 				917A925126AD980D002E43C5 /* CategoryListTableViewCell.xib in Resources */,
@@ -915,6 +962,7 @@
 			files = (
 				911DC91226A57817000F8FAB /* BeginViewController.swift in Sources */,
 				911DC91526A593BC000F8FAB /* PSSignupViewController.swift in Sources */,
+				91E3C0E026AF282C00B8BA89 /* RechargeViewController.swift in Sources */,
 				9122E361269D54FD00B1394A /* OnBordingPageViewController.swift in Sources */,
 				9122E367269D5C0400B1394A /* Step2ViewController.swift in Sources */,
 				91309DEC269FFD8500503AF9 /* AddStudentViewController.swift in Sources */,
@@ -934,34 +982,42 @@
 				91E3F19026A7DBF7003A683B /* StorybordHelper.swift in Sources */,
 				916DD51526A6E492005BC6E5 /* PastOrderViewController.swift in Sources */,
 				911DC91726A5A938000F8FAB /* ResetPasswordViewController.swift in Sources */,
+				91E3C0CB26AE8FF100B8BA89 /* DeleteProfileViewController.swift in Sources */,
 				91E2D23826A69CED00154514 /* PreferencesViewController.swift in Sources */,
 				918DCCC926ACAFF7007CCAF5 /* OrdersViewController.swift in Sources */,
 				919C8C44269F5BF90025B026 /* PasswordViewController.swift in Sources */,
 				91E2D23F26A6C5B800154514 /* PastOrderTableViewCell.swift in Sources */,
 				918DCCC526ACADC7007CCAF5 /* FavoritesViewController.swift in Sources */,
 				91C83D7326AAFF5F0009A420 /* MyCartViewController.swift in Sources */,
+				91E3C0DA26AF0B4F00B8BA89 /* CheckoutViewController.swift in Sources */,
 				4F5B2C2A25EFBAD00033D98E /* EnvironmentUtils.swift in Sources */,
 				919C8C31269E9E490025B026 /* WelcomeViewController.swift in Sources */,
 				911DC91026A55D77000F8FAB /* Constant.swift in Sources */,
 				91E2D23526A6974B00154514 /* PreferenceTableViewCell.swift in Sources */,
 				917A924726AD8D31002E43C5 /* RecentOrderListCVCell.swift in Sources */,
+				91E3C0DE26AF209500B8BA89 /* CheckoutTotalTableViewCell.swift in Sources */,
 				91309DF426A06F0B00503AF9 /* LoginViewController.swift in Sources */,
 				91E3F19F26A8B32B003A683B /* ItemDetailViewController.swift in Sources */,
 				919C8C3E269F04FB0025B026 /* StorybordIndetifiersList.swift in Sources */,
+				91E3C0CD26AEB75F00B8BA89 /* YouMayLikeItemViewController.swift in Sources */,
 				919C8C3C269F04C20025B026 /* SignupViewController.swift in Sources */,
 				91C83D6B26AAAF870009A420 /* SMyAccountViewController.swift in Sources */,
 				919C8C40269F0E450025B026 /* UITextFieldExtension.swift in Sources */,
 				91E3F19626A7E974003A683B /* SearchViewController.swift in Sources */,
+				91E3C0CF26AED33800B8BA89 /* UIImageViewExtension.swift in Sources */,
 				9122E365269D5BF800B1394A /* Step1ViewController.swift in Sources */,
 				4F322D9125EF90C300C95DE6 /* SceneDelegate.swift in Sources */,
 				91E3F19926A84EB5003A683B /* SearchTableViewCell.swift in Sources */,
 				9122E36A269D5EA400B1394A /* PageViewControllerExtension.swift in Sources */,
+				91E3C0DC26AF128100B8BA89 /* PromoCodeTableViewCell.swift in Sources */,
+				91E3C0D526AED3D700B8BA89 /* YouMayLikeTableViewCell.swift in Sources */,
+				91E3C0D826AF0B2400B8BA89 /* ItemListTableViewCell.swift in Sources */,
 				917A924326AD78D3002E43C5 /* CategoryTableViewCell.swift in Sources */,
-				9153A35526A720C200AB4DC9 /* DeleteProfileViewController.swift in Sources */,
 				917A924526AD8AE3002E43C5 /* CategoryListCollectionViewCell.swift in Sources */,
 				918DCCC126ACAA08007CCAF5 /* DashboardViewController.swift in Sources */,
 				4F322DAA25EF9AF800C95DE6 /* HomeViewController.swift in Sources */,
 				4F322DB125EFA35400C95DE6 /* HomeViewModel.swift in Sources */,
+				91E3C0C926AE81F600B8BA89 /* FilterViewController.swift in Sources */,
 				91309DE9269FF20800503AF9 /* SearchSchoolViewController.swift in Sources */,
 				911DC91926A5BA7D000F8FAB /* CheckEmailViewController.swift in Sources */,
 				9122E363269D5BEB00B1394A /* Step0ViewController.swift in Sources */,
