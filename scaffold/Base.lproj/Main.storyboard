@@ -1248,19 +1248,19 @@
                                     <constraint firstAttribute="width" constant="95" id="u4v-Fd-iIf"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Log in to your account" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cSU-tX-yLZ">
-                                <rect key="frame" x="37" y="198" width="205" height="85.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log in to your account" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cSU-tX-yLZ">
+                                <rect key="frame" x="37" y="198" width="241.5" height="85.5"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cR8-aG-pXt">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cR8-aG-pXt">
                                 <rect key="frame" x="46" y="353" width="368" height="17.5"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="StB-6b-t7t">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="StB-6b-t7t">
                                 <rect key="frame" x="28" y="380.5" width="358" height="50"/>
                                 <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -1269,7 +1269,7 @@
                                 <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="email"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOI-ED-n8V">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOI-ED-n8V">
                                 <rect key="frame" x="46" y="445.5" width="368" height="17.5"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1286,7 +1286,6 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8o-FD-jgj">
                                 <rect key="frame" x="235" y="538" width="133" height="30"/>
-                                <color key="backgroundColor" name="Error"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="B1r-kj-rBr"/>
                                 </constraints>
@@ -1322,13 +1321,13 @@
                                 <rect key="frame" x="62" y="711" width="290" height="28"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don’t have an account? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvD-RW-Zkr">
-                                        <rect key="frame" x="0.0" y="0.0" width="142" height="28"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="159.5" height="28"/>
                                         <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="13"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2B-Vg-e1O">
-                                        <rect key="frame" x="142" y="0.0" width="148" height="28"/>
+                                        <rect key="frame" x="159.5" y="0.0" width="130.5" height="28"/>
                                         <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="13"/>
                                         <state key="normal" title="Register now">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1339,7 +1338,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="          Your password is incorrect, please try again." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXL-81-2b9">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="          Your password is incorrect, please try again." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXL-81-2b9">
                                 <rect key="frame" x="46" y="301" width="322" height="49"/>
                                 <color key="backgroundColor" name="Error"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="13"/>
@@ -1375,7 +1374,7 @@
                             <constraint firstItem="xpI-pP-Ehz" firstAttribute="centerX" secondItem="6Us-Rb-ICP" secondAttribute="centerX" constant="12" id="aik-zc-pbC"/>
                             <constraint firstItem="p1h-zt-ucK" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aXL-81-2b9" secondAttribute="trailing" constant="46" id="bbn-ar-VK6"/>
                             <constraint firstItem="p1h-zt-ucK" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cSU-tX-yLZ" secondAttribute="trailing" constant="72" id="feA-50-B6a"/>
-                            <constraint firstItem="p1h-zt-ucK" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="yd4-iW-5Oi" secondAttribute="bottom" constant="123" id="hsQ-Cf-xzc"/>
+                            <constraint firstItem="p1h-zt-ucK" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="yd4-iW-5Oi" secondAttribute="bottom" constant="20" id="hsQ-Cf-xzc"/>
                             <constraint firstItem="20S-7R-IAh" firstAttribute="leading" secondItem="p1h-zt-ucK" secondAttribute="leading" constant="29" id="jWH-Yo-7Lh"/>
                             <constraint firstItem="cR8-aG-pXt" firstAttribute="top" secondItem="cSU-tX-yLZ" secondAttribute="bottom" constant="69.5" id="jhx-sj-gkt"/>
                             <constraint firstItem="p1h-zt-ucK" firstAttribute="trailing" secondItem="L8o-FD-jgj" secondAttribute="trailing" constant="46" id="k6b-Ot-mWt"/>
@@ -1391,7 +1390,7 @@
                             <constraint firstItem="yd4-iW-5Oi" firstAttribute="centerX" secondItem="6Us-Rb-ICP" secondAttribute="centerX" id="uRu-wi-YcY"/>
                             <constraint firstItem="rIh-UJ-nAI" firstAttribute="top" secondItem="KOI-ED-n8V" secondAttribute="bottom" constant="10" id="vdk-Qy-8B1"/>
                             <constraint firstItem="StB-6b-t7t" firstAttribute="centerX" secondItem="6Us-Rb-ICP" secondAttribute="centerX" id="vf5-sp-WlZ"/>
-                            <constraint firstItem="20S-7R-IAh" firstAttribute="top" relation="lessThanOrEqual" secondItem="L8o-FD-jgj" secondAttribute="bottom" constant="71" id="xDx-3f-2EJ"/>
+                            <constraint firstItem="20S-7R-IAh" firstAttribute="top" secondItem="L8o-FD-jgj" secondAttribute="bottom" constant="71" id="xDx-3f-2EJ"/>
                         </constraints>
                     </view>
                     <connections>
@@ -3859,10 +3858,10 @@
     </scenes>
     <designables>
         <designable name="HIw-vv-xT3">
-            <size key="intrinsicContentSize" width="9" height="36.5"/>
+            <size key="intrinsicContentSize" width="9" height="38.5"/>
         </designable>
         <designable name="JSb-d0-VwA">
-            <size key="intrinsicContentSize" width="9" height="36.5"/>
+            <size key="intrinsicContentSize" width="8" height="38.5"/>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
