@@ -9,13 +9,19 @@ import UIKit
 
 class FavoritesViewController: UIViewController {
 
+    @IBOutlet weak var imgProfilePhoto: UIImageView!
+    @IBOutlet weak var btnOrderDetails: UIButton!
+    @IBOutlet weak var tblFavorite: UITableView!
+    @IBOutlet weak var searchbar: UISearchBar!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func onCartTapped(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -26,4 +32,18 @@ class FavoritesViewController: UIViewController {
     }
     */
 
+}
+extension FavoritesViewController : UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 2
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // swiftlint:disable force_cast
+        let cell = tableView.dequeueReusableCell(withIdentifier: "FavoriteTableViewCell", for: indexPath) as! FavoriteTableViewCell
+        // swiftlint:enable force_cast
+        return cell
+    }
+    
+    
 }

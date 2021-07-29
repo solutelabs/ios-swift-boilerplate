@@ -16,7 +16,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        envLabel.text = viewModel.getCurrenEnvironment()
+       // envLabel.text = viewModel.getCurrenEnvironment()
     }
 
 }
