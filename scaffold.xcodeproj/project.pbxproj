@@ -78,6 +78,10 @@
 		919C8C44269F5BF90025B026 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C8C43269F5BF90025B026 /* PasswordViewController.swift */; };
 		919C8C46269F6A740025B026 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 919C8C45269F6A740025B026 /* Montserrat-Italic.ttf */; };
 		91B329BB26A6EFE400C90790 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B329BA26A6EFE400C90790 /* UIViewExtension.swift */; };
+		91B3AD6426B3F53B0093D84C /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B3AD6326B3F53B0093D84C /* HelpViewController.swift */; };
+		91B3AD6626B426020093D84C /* HelpWithAnOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B3AD6526B426020093D84C /* HelpWithAnOrderViewController.swift */; };
+		91B3AD6826B440650093D84C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B3AD6726B440650093D84C /* NotificationViewController.swift */; };
+		91B3AD6A26B440FA0093D84C /* NotificationListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B3AD6926B440FA0093D84C /* NotificationListTableViewCell.swift */; };
 		91C83D4726AA93EE0009A420 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C83D4626AA93EE0009A420 /* MenuViewController.swift */; };
 		91C83D6B26AAAF870009A420 /* SMyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C83D6A26AAAF870009A420 /* SMyAccountViewController.swift */; };
 		91C83D6D26AAB6320009A420 /* PMyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C83D6C26AAB6320009A420 /* PMyAccountViewController.swift */; };
@@ -227,6 +231,10 @@
 		919C8C43269F5BF90025B026 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		919C8C45269F6A740025B026 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
 		91B329BA26A6EFE400C90790 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		91B3AD6326B3F53B0093D84C /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		91B3AD6526B426020093D84C /* HelpWithAnOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpWithAnOrderViewController.swift; sourceTree = "<group>"; };
+		91B3AD6726B440650093D84C /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		91B3AD6926B440FA0093D84C /* NotificationListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationListTableViewCell.swift; sourceTree = "<group>"; };
 		91C83D4626AA93EE0009A420 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		91C83D6A26AAAF870009A420 /* SMyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMyAccountViewController.swift; sourceTree = "<group>"; };
 		91C83D6C26AAB6320009A420 /* PMyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMyAccountViewController.swift; sourceTree = "<group>"; };
@@ -357,6 +365,7 @@
 		4F322DAD25EF9C4A00C95DE6 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				91B3AD6126B3F50E0093D84C /* Help */,
 				917CFEEE26AFF15000280D75 /* Order */,
 				9122E35E269D511600B1394A /* OnBording */,
 				918DCCBC26ACA926007CCAF5 /* Dashbord */,
@@ -438,6 +447,7 @@
 				918DCCC626ACAE2C007CCAF5 /* ProfileViewController.swift */,
 				91F96E7826B32A7600BE1C2B /* AddCardViewController.swift */,
 				91F96E7A26B33A4200BE1C2B /* VoucherListViewController.swift */,
+				91B3AD6726B440650093D84C /* NotificationViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -452,6 +462,7 @@
 				91E2D23326A6974B00154514 /* PreferenceTableViewCell.swift */,
 				91E2D23426A6974B00154514 /* PreferenceTableViewCell.xib */,
 				91F96E6D26B2D7B300BE1C2B /* ProfileTableViewCell.swift */,
+				91B3AD6926B440FA0093D84C /* NotificationListTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -696,6 +707,23 @@
 				911DC91826A5BA7D000F8FAB /* CheckEmailViewController.swift */,
 				91F96E6F26B2EC4900BE1C2B /* ChangePasswordViewController.swift */,
 				91F96E7126B2F12F00BE1C2B /* WalletViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		91B3AD6126B3F50E0093D84C /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				91B3AD6226B3F5160093D84C /* ViewController */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		91B3AD6226B3F5160093D84C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				91B3AD6326B3F53B0093D84C /* HelpViewController.swift */,
+				91B3AD6526B426020093D84C /* HelpWithAnOrderViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1076,6 +1104,7 @@
 				91F96E7526B3049E00BE1C2B /* CardsTableViewCell.swift in Sources */,
 				917CFEF126AFF1D500280D75 /* OrderDetailViewController.swift in Sources */,
 				916DD5C826B1769900855FD7 /* OrderFeedbackCollectionViewCell.swift in Sources */,
+				91B3AD6A26B440FA0093D84C /* NotificationListTableViewCell.swift in Sources */,
 				911DC91D26A5F639000F8FAB /* MyFamilyViewController.swift in Sources */,
 				917CFEFF26B04B9C00280D75 /* InitalStepupStep2ViewController.swift in Sources */,
 				91F96E7B26B33A4200BE1C2B /* VoucherListViewController.swift in Sources */,
@@ -1100,6 +1129,7 @@
 				91E2D23826A69CED00154514 /* PreferencesViewController.swift in Sources */,
 				91F96E7726B3055900BE1C2B /* VoucherTableViewCell.swift in Sources */,
 				918DCCC926ACAFF7007CCAF5 /* OrdersViewController.swift in Sources */,
+				91B3AD6826B440650093D84C /* NotificationViewController.swift in Sources */,
 				919C8C44269F5BF90025B026 /* PasswordViewController.swift in Sources */,
 				91E2D23F26A6C5B800154514 /* PastOrderTableViewCell.swift in Sources */,
 				918DCCC526ACADC7007CCAF5 /* FavoritesViewController.swift in Sources */,
@@ -1115,6 +1145,7 @@
 				91E3C0DE26AF209500B8BA89 /* CheckoutTotalTableViewCell.swift in Sources */,
 				91309DF426A06F0B00503AF9 /* LoginViewController.swift in Sources */,
 				91E3F19F26A8B32B003A683B /* ItemDetailViewController.swift in Sources */,
+				91B3AD6426B3F53B0093D84C /* HelpViewController.swift in Sources */,
 				919C8C3E269F04FB0025B026 /* StorybordIndetifiersList.swift in Sources */,
 				91F96E6E26B2D7B300BE1C2B /* ProfileTableViewCell.swift in Sources */,
 				91E3C0CD26AEB75F00B8BA89 /* YouMayLikeItemViewController.swift in Sources */,
@@ -1134,6 +1165,7 @@
 				917A924326AD78D3002E43C5 /* CategoryTableViewCell.swift in Sources */,
 				917A924526AD8AE3002E43C5 /* CategoryListCollectionViewCell.swift in Sources */,
 				918DCCC126ACAA08007CCAF5 /* DashboardViewController.swift in Sources */,
+				91B3AD6626B426020093D84C /* HelpWithAnOrderViewController.swift in Sources */,
 				4F322DAA25EF9AF800C95DE6 /* HomeViewController.swift in Sources */,
 				917CFEF826B0385C00280D75 /* StudentListTableViewCell.swift in Sources */,
 				4F322DB125EFA35400C95DE6 /* HomeViewModel.swift in Sources */,

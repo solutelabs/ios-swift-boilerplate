@@ -88,5 +88,10 @@ enum StorybordIndetifiersList: String {
     case walletViewController = "WalletViewController"
     case addCardViewController = "AddCardViewController"
     case voucherListViewController = "VoucherListViewController"
+    case notificationViewController = "NotificationViewController"
     
+    // Help Section
+    
+    case helpViewController = "HelpViewController"
+    case helpWithAnOrderViewController = "HelpWithAnOrderViewController"
 }

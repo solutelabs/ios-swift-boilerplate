@@ -20,6 +20,8 @@ class OrderListingTableViewCell: UITableViewCell {
     @IBOutlet weak var lblOrderID: UILabel!
     @IBOutlet weak var btnEdit: UIButton!
     @IBOutlet weak var uvBackground: UIView!
+    @IBOutlet weak var imgProfile: UIImageView!
+    @IBOutlet weak var lblWhenOrdered: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
