@@ -32,6 +32,7 @@ enum StorybordIndetifiersList: String {
     case parentStudentSignupViewController = "PSSignupViewController"
     case resetPasswordViewController = "ResetPasswordViewController"
     case checkEmailViewController = "CheckEmailViewController"
+    case changePasswordViewController = "ChangePasswordViewController"
     
     // Parent View Controller
     
@@ -57,6 +58,7 @@ enum StorybordIndetifiersList: String {
     case youMayLikeItemViewController = "YouMayLikeItemViewController"
     case checkoutViewController = "CheckoutViewController"
     case rechargeViewController = "RechargeViewController"
+   
     // Dashboard
     
     case dashboardViewController = "DashboardViewController"
@@ -80,5 +82,11 @@ enum StorybordIndetifiersList: String {
     case orderLateViewController = "OrderLateViewController"
     case initalStepupStep1ViewController = "InitalStepupStep1ViewController"
     case initalStepupStep2ViewController = "InitalStepupStep2ViewController"
+    
+    // Profile
+    
+    case walletViewController = "WalletViewController"
+    case addCardViewController = "AddCardViewController"
+    case voucherListViewController = "VoucherListViewController"
     
 }

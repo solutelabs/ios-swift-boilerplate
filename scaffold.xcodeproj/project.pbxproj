@@ -107,6 +107,13 @@
 		91E3F19B26A8B0B6003A683B /* MenuOrder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E3F19A26A8B0B6003A683B /* MenuOrder.storyboard */; };
 		91E3F19F26A8B32B003A683B /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E3F19E26A8B32B003A683B /* ItemDetailViewController.swift */; };
 		91F96E6C26B264A000BE1C2B /* OrderListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F96E6B26B264A000BE1C2B /* OrderListingTableViewCell.swift */; };
+		91F96E6E26B2D7B300BE1C2B /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F96E6D26B2D7B300BE1C2B /* ProfileTableViewCell.swift */; };
+		91F96E7026B2EC4900BE1C2B /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F96E6F26B2EC4900BE1C2B /* ChangePasswordViewController.swift */; };
+		91F96E7226B2F13000BE1C2B /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F96E7126B2F12F00BE1C2B /* WalletViewController.swift */; };
+		91F96E7526B3049E00BE1C2B /* CardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F96E7426B3049E00BE1C2B /* CardsTableViewCell.swift */; };
+		91F96E7726B3055900BE1C2B /* VoucherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F96E7626B3055900BE1C2B /* VoucherTableViewCell.swift */; };
+		91F96E7926B32A7600BE1C2B /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F96E7826B32A7600BE1C2B /* AddCardViewController.swift */; };
+		91F96E7B26B33A4200BE1C2B /* VoucherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F96E7A26B33A4200BE1C2B /* VoucherListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -249,6 +256,13 @@
 		91E3F19A26A8B0B6003A683B /* MenuOrder.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuOrder.storyboard; sourceTree = "<group>"; };
 		91E3F19E26A8B32B003A683B /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
 		91F96E6B26B264A000BE1C2B /* OrderListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListingTableViewCell.swift; sourceTree = "<group>"; };
+		91F96E6D26B2D7B300BE1C2B /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		91F96E6F26B2EC4900BE1C2B /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		91F96E7126B2F12F00BE1C2B /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		91F96E7426B3049E00BE1C2B /* CardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsTableViewCell.swift; sourceTree = "<group>"; };
+		91F96E7626B3055900BE1C2B /* VoucherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherTableViewCell.swift; sourceTree = "<group>"; };
+		91F96E7826B32A7600BE1C2B /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		91F96E7A26B33A4200BE1C2B /* VoucherListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherListViewController.swift; sourceTree = "<group>"; };
 		98F6AD06FD69BE6C0EAFE883 /* Pods-scaffold.dev-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scaffold.dev-release.xcconfig"; path = "Target Support Files/Pods-scaffold/Pods-scaffold.dev-release.xcconfig"; sourceTree = "<group>"; };
 		A79ADC9AE10567276A9404C8 /* Pods-scaffold.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scaffold.debug.xcconfig"; path = "Target Support Files/Pods-scaffold/Pods-scaffold.debug.xcconfig"; sourceTree = "<group>"; };
 		EE04B75ED535FBC9E9C574AD /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
@@ -422,6 +436,8 @@
 				91C83D6A26AAAF870009A420 /* SMyAccountViewController.swift */,
 				91C83D6C26AAB6320009A420 /* PMyAccountViewController.swift */,
 				918DCCC626ACAE2C007CCAF5 /* ProfileViewController.swift */,
+				91F96E7826B32A7600BE1C2B /* AddCardViewController.swift */,
+				91F96E7A26B33A4200BE1C2B /* VoucherListViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -435,6 +451,7 @@
 				911DC92026A5F8D9000F8FAB /* StudentTableViewCell.xib */,
 				91E2D23326A6974B00154514 /* PreferenceTableViewCell.swift */,
 				91E2D23426A6974B00154514 /* PreferenceTableViewCell.xib */,
+				91F96E6D26B2D7B300BE1C2B /* ProfileTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -660,6 +677,7 @@
 		919C8C41269F5BD20025B026 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				91F96E7326B3047800BE1C2B /* View */,
 				919C8C42269F5BE60025B026 /* ViewController */,
 			);
 			path = Common;
@@ -676,6 +694,8 @@
 				911DC91426A593BB000F8FAB /* PSSignupViewController.swift */,
 				911DC91626A5A938000F8FAB /* ResetPasswordViewController.swift */,
 				911DC91826A5BA7D000F8FAB /* CheckEmailViewController.swift */,
+				91F96E6F26B2EC4900BE1C2B /* ChangePasswordViewController.swift */,
+				91F96E7126B2F12F00BE1C2B /* WalletViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -766,6 +786,15 @@
 				916DD5CB26B1DEB000855FD7 /* RecurringViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		91F96E7326B3047800BE1C2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91F96E7426B3049E00BE1C2B /* CardsTableViewCell.swift */,
+				91F96E7626B3055900BE1C2B /* VoucherTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1038,15 +1067,18 @@
 				916DD5CA26B1D3F200855FD7 /* ThanksFeedbackViewController.swift in Sources */,
 				91E3C0E026AF282C00B8BA89 /* RechargeViewController.swift in Sources */,
 				9122E361269D54FD00B1394A /* OnBordingPageViewController.swift in Sources */,
+				91F96E7026B2EC4900BE1C2B /* ChangePasswordViewController.swift in Sources */,
 				9122E367269D5C0400B1394A /* Step2ViewController.swift in Sources */,
 				91309DEC269FFD8500503AF9 /* AddStudentViewController.swift in Sources */,
 				917CFEFD26B04B5E00280D75 /* InitalStepupStep1ViewController.swift in Sources */,
 				917A924926AD8E70002E43C5 /* RecentOrderTableViewCell.swift in Sources */,
 				4F322D8F25EF90C300C95DE6 /* AppDelegate.swift in Sources */,
+				91F96E7526B3049E00BE1C2B /* CardsTableViewCell.swift in Sources */,
 				917CFEF126AFF1D500280D75 /* OrderDetailViewController.swift in Sources */,
 				916DD5C826B1769900855FD7 /* OrderFeedbackCollectionViewCell.swift in Sources */,
 				911DC91D26A5F639000F8FAB /* MyFamilyViewController.swift in Sources */,
 				917CFEFF26B04B9C00280D75 /* InitalStepupStep2ViewController.swift in Sources */,
+				91F96E7B26B33A4200BE1C2B /* VoucherListViewController.swift in Sources */,
 				916DD5C626B1747900855FD7 /* OrderFeedbackViewController.swift in Sources */,
 				918D47C126A992C8008D69E4 /* TMyAccountViewController.swift in Sources */,
 				916DD5C426B117D900855FD7 /* FavoriteTableViewCell.swift in Sources */,
@@ -1055,6 +1087,7 @@
 				9122E36E269E2B6D00B1394A /* UIButtonExtension.swift in Sources */,
 				917A925026AD980D002E43C5 /* CategoryListTableViewCell.swift in Sources */,
 				91B329BB26A6EFE400C90790 /* UIViewExtension.swift in Sources */,
+				91F96E7926B32A7600BE1C2B /* AddCardViewController.swift in Sources */,
 				917A924B26AD9536002E43C5 /* HeadingTableViewCell.swift in Sources */,
 				917899052695B59A006ABB9C /* R.generated.swift in Sources */,
 				911DC92126A5F8D9000F8FAB /* StudentTableViewCell.swift in Sources */,
@@ -1065,10 +1098,12 @@
 				911DC91726A5A938000F8FAB /* ResetPasswordViewController.swift in Sources */,
 				91E3C0CB26AE8FF100B8BA89 /* DeleteProfileViewController.swift in Sources */,
 				91E2D23826A69CED00154514 /* PreferencesViewController.swift in Sources */,
+				91F96E7726B3055900BE1C2B /* VoucherTableViewCell.swift in Sources */,
 				918DCCC926ACAFF7007CCAF5 /* OrdersViewController.swift in Sources */,
 				919C8C44269F5BF90025B026 /* PasswordViewController.swift in Sources */,
 				91E2D23F26A6C5B800154514 /* PastOrderTableViewCell.swift in Sources */,
 				918DCCC526ACADC7007CCAF5 /* FavoritesViewController.swift in Sources */,
+				91F96E7226B2F13000BE1C2B /* WalletViewController.swift in Sources */,
 				91C83D7326AAFF5F0009A420 /* MyCartViewController.swift in Sources */,
 				91E3C0DA26AF0B4F00B8BA89 /* CheckoutViewController.swift in Sources */,
 				4F5B2C2A25EFBAD00033D98E /* EnvironmentUtils.swift in Sources */,
@@ -1081,6 +1116,7 @@
 				91309DF426A06F0B00503AF9 /* LoginViewController.swift in Sources */,
 				91E3F19F26A8B32B003A683B /* ItemDetailViewController.swift in Sources */,
 				919C8C3E269F04FB0025B026 /* StorybordIndetifiersList.swift in Sources */,
+				91F96E6E26B2D7B300BE1C2B /* ProfileTableViewCell.swift in Sources */,
 				91E3C0CD26AEB75F00B8BA89 /* YouMayLikeItemViewController.swift in Sources */,
 				919C8C3C269F04C20025B026 /* SignupViewController.swift in Sources */,
 				91C83D6B26AAAF870009A420 /* SMyAccountViewController.swift in Sources */,
