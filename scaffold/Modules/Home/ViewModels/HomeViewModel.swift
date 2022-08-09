@@ -10,6 +10,6 @@ import Foundation
 class HomeViewModel {
     
     func getCurrenEnvironment() -> String {
-        return "\(Environment.current)"
+        return "\(Environment().configuration(PlistKey.APPENVIRONMENT))"
     }
 }

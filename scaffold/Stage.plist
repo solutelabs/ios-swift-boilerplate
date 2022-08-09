@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!--
-   Stage.plist
-   scaffold
+Stage.plist
+scaffold
 
-   Created by sl-mini on 9/8/2022.
-   Copyright (c) 2022 ___ORGANIZATIONNAME___. All rights reserved.
+Created by sl-mini on 9/8/2022.
+Copyright (c) 2022 ___ORGANIZATIONNAME___. All rights reserved.
 -->
 <plist version="1.0">
-<dict/>
+<dict>
+    <key>AppEnvironment</key>
+    <string>$(ENVIRONMENT)</string>
+    <key>BASE_URL</key>
+    <string>${BASE_URL}</string>
+</dict>
 </plist>
+
